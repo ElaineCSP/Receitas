@@ -24,11 +24,6 @@ h2 {
     width: 50%;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
 .foto-pudim {
     width: 290px;
     height: 200px;
@@ -60,4 +55,14 @@ figure {
 .facebook {
     width: 10%;
     height: 10%;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
 }
