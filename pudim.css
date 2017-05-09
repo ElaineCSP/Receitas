@@ -2,12 +2,12 @@ body {
     background-color: #f5f0DC;
     font-family: arial black;
     width: 940px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 60px;
 }
 h1 {
     color: black;
-    text-decoration: none;
+    margin-top: -127px;
+
 }
 
 h2 {
@@ -56,4 +56,46 @@ footer {
 .foto-bem-casado {
     width: 290px;
     height: 200px;
+}
+
+.adicionando-receita {
+    font-size: 15px;
+    font-family: Arial Black;
+  
+}
+
+.adicionando {
+    color: black;
+    font-family: Courier New, Courier, monospace;
+    background: pink;
+    padding: 23px 27px 20px;
+    margin-left: 700px;
+    text-align: center;
+}
+
+.todas-as-receitas {
+    position: absolute;
+}
+
+.lista-bem-casado {
+    margin-left: 750px;
+}
+
+.receita-bem-casado {
+    background-color: lightskyblue;
+    background: -webkit-linear-gradient(top, bisque, burlywood 50%);
+    border-radius: 15px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 50%;
+}
+
+.casado {    
+    position: relative;
+    margin-top: 80px;
 }
