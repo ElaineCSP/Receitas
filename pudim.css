@@ -43,21 +43,6 @@ figure {
     -webkit-transform: rotate(-4deg); 
 }
 
-.youtube {
-    width: 10%;
-    height: 10%;
-}
-
-.instagram {
-    width: 10%;
-    height: 10%;
-}
-
-.facebook {
-    width: 10%;
-    height: 10%;
-}
-
 footer {
     background-color: #000;
     color: #F2FFFC;
@@ -66,4 +51,9 @@ footer {
     left: 0;
     width: 100%;
     padding: 15px;
+}
+
+.foto-bem-casado {
+    width: 290px;
+    height: 200px;
 }
