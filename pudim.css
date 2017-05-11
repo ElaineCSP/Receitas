@@ -4,6 +4,12 @@ body {
     width: 940px;
     margin-left: 60px;
 }
+
+.topo-bemcasado {
+    display: inline-block;
+    margin-top: -24%;
+}
+
 h1 {
     color: black;
     margin-top: -127px;
