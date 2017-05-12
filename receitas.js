@@ -17,3 +17,12 @@ botaoBemCasado.addEventListener('click', function() {
     divReceitaPudim.style.display = 'none';
     // aqui a div de pudim some (quer dizer, quando ela tiver uma div envolvendo-a e com uma classe bacanuda pro query selector funcionar)
 })
+
+divReceitaPudim.style.display = 'none';
+
+var botaoPudim = document.querySelector('#pudim');
+
+botaoPudim.addEventListener('click', function() {
+    divReceitaPudim.style.display = 'block';
+    divReceitaBemCasado.style.display = 'none';
+})
