@@ -13,12 +13,9 @@ body {
 h1 {
     color: black;
     margin-top: -127px;
-
 }
 
 h2 {
-    background-color: lightskyblue;
-    background: -webkit-linear-gradient(top, orangered, orange 50%);
     border-radius: 15px;
     border: 1px solid black;
     padding-top: 5px;
@@ -30,7 +27,17 @@ h2 {
     width: 50%;
 }
 
-.foto-pudim {
+.receita-bem-casado {
+    background: -webkit-linear-gradient(top, bisque, burlywood 50%);
+}
+.receita-de-pudim {
+    background: -webkit-linear-gradient(top, orangered, orange 50%);
+}
+.receita-de-torta {
+        background: -webkit-linear-gradient(top, #6B4226, #8E6B23 50%);
+}
+
+.foto-receita {
     width: 290px;
     height: 200px;
 }
@@ -49,21 +56,6 @@ figure {
     -webkit-transform: rotate(-4deg); 
 }
 
-footer {
-    background-color: #000;
-    color: #F2FFFC;
-    clear: both;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 15px;
-}
-
-.foto-bem-casado {
-    width: 290px;
-    height: 200px;
-}
-
 .adicionando-receita {
     font-size: 15px;
     font-family: Arial Black;
@@ -79,29 +71,16 @@ footer {
     text-align: center;
 }
 
-.todas-as-receitas {
-    position: absolute;
-}
 
 .lista-bem-casado {
     margin-left: 750px;
 }
-
-.receita-bem-casado {
-    background-color: lightskyblue;
-    background: -webkit-linear-gradient(top, bisque, burlywood 50%);
-    border-radius: 15px;
-    border: 1px solid black;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    color: #FFFFFF;
-    font-family: Arial;
-    width: 50%;
-}
-
-.casado {    
+.titulo-bemcasado {    
     position: relative;
     margin-top: 80px;
 }
+
+.receita-torta {
+    position: relative;
+    top: 320px;
+}  
