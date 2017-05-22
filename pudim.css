@@ -5,9 +5,24 @@ body {
     margin-left: 60px;
 }
 
-.topo-bemcasado {
-    display: inline-block;
-    margin-top: -24%;
+.adicionando-receita {
+    font-size: 15px;
+    font-family: Arial Black;
+  
+}
+
+.adicionando {
+    color: black;
+    font-family: Courier New, Courier, monospace;
+    background: pink;
+    padding: 23px 27px 20px;
+    margin-left: 700px;
+    text-align: center;
+}
+
+.menu {
+    cursor: pointer;
+    margin-left: 750px;
 }
 
 h1 {
@@ -55,32 +70,3 @@ figure {
     transform: rotate(-4deg); 
     -webkit-transform: rotate(-4deg); 
 }
-
-.adicionando-receita {
-    font-size: 15px;
-    font-family: Arial Black;
-  
-}
-
-.adicionando {
-    color: black;
-    font-family: Courier New, Courier, monospace;
-    background: pink;
-    padding: 23px 27px 20px;
-    margin-left: 700px;
-    text-align: center;
-}
-
-
-.lista-bem-casado {
-    margin-left: 750px;
-}
-.titulo-bemcasado {    
-    position: relative;
-    margin-top: 80px;
-}
-
-.receita-torta {
-    position: relative;
-    top: 320px;
-}  
