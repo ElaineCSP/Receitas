@@ -8,7 +8,6 @@ body {
 .adicionando-receita {
     font-size: 15px;
     font-family: Arial Black;
-  
 }
 
 .adicionando {
@@ -51,6 +50,10 @@ h2 {
 .receita-de-torta {
         background: -webkit-linear-gradient(top, #6B4226, #8E6B23 50%);
 }
+.receita-caldo-verde {
+    background: -webkit-linear-gradient(top, olivedrab, #8E6B23 50%);
+}
+
 
 .foto-receita {
     width: 290px;
