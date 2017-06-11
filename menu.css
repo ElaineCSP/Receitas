@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+.menu-container {
+    border-top: 2px dashed white;
+    text-decoration: none;
+    text-align: center;
+    background: wheat;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    height: 106px;
+    z-index: 10;
+}
+.menu {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    margin-top: 36px;
+}
+.link-menus {
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.container-topImages {
+    display: inline-block;
+    position: fixed;
+    margin-top: 106px;
+}
+.images {
+    width: 451px;
+    height: 600px;
+    margin-left: -4px;
+}
+
+.title {
+    color: wheat;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    margin-top: 265px;
+    font-size: 46px;
+    text-align: center;
+}
+
+.area-receitas {
+    border-top: 3px dashed wheat;
+    height: 580px;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+}
+.salgados {
+    margin-top: 637px;
+    background: white;
+}
+.doces {
+    margin-top: 1213px;
+    background: gainsboro;
+}
+.container-images-receitas {
+    position: relative;
+    display: inline-block;
+    margin-top: 102px;
+}
+.images-receitas {
+    width: 198px;
+    height: 198px;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+h5 {
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 135px;
+}
+.link {
+    text-align: inherit;
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.bloco-de-rodape {
+    position: absolute;
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    margin-top: 1793px;
+}
+
+.texto-rodape { 
+    color: white;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+ 
+.imagem-redes-sociais {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    border: 3px solid #dbdbdb;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-top: -39px;
+}
+
+.background {
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    border: 3px solid #dbdbdb;
+    margin-top: -36px;
+    cursor: pointer;
+}
+
+.link-twitter { 
+    background-image: url(http://www.maisons-elan.com/images/reseaux-sociaux/twitter-noir.png);
+    margin-left: 800px;
+}
+.link-twitter:hover {
+    background-image: url(https://image.freepik.com/icones-gratis/sociais-twitter-passaro-simbolo_318-27588.jpg);
+    margin-left: 800px;
+}
+
+.link-facebook {
+    background-image: url(https://image.freepik.com/icones-gratis/logotipo-facebook-com-cantos-arredondados_318-9850.jpg);
+    margin-left: 904px;
+}
+.link-facebook:hover {
+    background-image: url(https://image.freepik.com/free-icon/facebook-letter-logo_318-40258.jpg);
+    margin-left: 904px;
+}
+
+.link-gmail {
+    background-image: url(https://image.freepik.com/icones-gratis/google-plus-logotipo_318-40866.png);
+    margin-left: 1000px;
+}
+.link-gmail:hover {
+    background-image: url(http://img.freepik.com/free-icon/google-plus-logo_318-76532.jpg?size=338c&ext=jpg);
+    margin-left: 1000px;
+}
+
+.link-pinterest {
+    background-image: url(http://img.freepik.com/icones-gratis/pinterest-logotipo-sociais_318-65326.jpg?size=338&ext=jpg);
+    margin-left: 1100px; 
+}
+.link-pinterest:hover {
+    background-image: url(https://image.freepik.com/free-icon/pinterest-letter-logo-variant_318-53062.jpg);
+    margin-left: 1100px;
+}
+
