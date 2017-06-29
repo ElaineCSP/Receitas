@@ -1,0 +1,148 @@
+body {
+    margin: 0;  
+}
+.menu-container {
+    border: 2px dashed darksalmon;
+    text-decoration: none;
+    text-align: center;
+    background: wheat;
+    width: 100%;
+    margin: 0;
+    height: 106px;
+} 
+.menu {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    margin-top: 36px;
+}
+.link-menus {
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.adicionando-receita {
+    width: 70%;
+    font-size: 15px;
+    font-family: Arial Black;
+}
+.adicionando {
+    color: black;
+    font-family: Courier New, Courier, monospace;
+    background: pink;
+    padding: 23px 27px 20px;
+    margin-left: 632px;
+    text-align: center;
+}
+.trocaReceita {
+    cursor: pointer;
+    margin-left: 719px;
+}
+
+h1 {
+    margin-top: -157px;
+    margin-left: 232px;
+}
+.foto-receita {
+    width: 290px;
+    height: 200px;
+}
+figure {
+    background-color: white;
+    margin-left: 10%;
+    padding: 15px;
+    width: 350px;
+    height: 220px;
+    text-align: center;
+    font-family: cursive;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
+    transform: rotate(-4deg); 
+    -webkit-transform: rotate(-4deg); 
+}
+.subtitulos {
+    background: -webkit-linear-gradient(top, sienna, #8E6B23 50%);
+    margin-left: 66px;
+    margin-top: 42px;
+}
+.descricaoReceitas {
+    margin-left: 60px;
+}
+
+h2 {
+    border-radius: 15px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 50%;
+}
+
+.footer {
+    position: absolute;
+    background-color: darksalmon;
+    height: 100px;
+    width: 100%;
+    margin-top: 80px;
+}
+.text-footer { 
+    color: white;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 44px;
+    font-size: 20px;
+}
+ 
+.images-social-network {
+    border-radius: 50%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    border: 3px solid #dbdbdb;
+    cursor: pointer;
+    margin-top: -56px;
+}
+
+.link-twitter { 
+    background-image: url(https://image.freepik.com/icones-gratis/sociais-twitter-passaro-simbolo_318-27588.jpg);
+    margin-left: 800px;
+}
+.link-twitter:hover {
+    background-image: url(http://www.maisons-elan.com/images/reseaux-sociaux/twitter-noir.png);
+    margin-left: 800px;
+}
+
+.link-facebook {
+    background-image: url(https://image.freepik.com/free-icon/facebook-letter-logo_318-40258.jpg);
+    margin-left: 904px;
+}
+.link-facebook:hover {
+    background-image: url(https://image.freepik.com/icones-gratis/logotipo-facebook-com-cantos-arredondados_318-9850.jpg);
+    margin-left: 904px;
+}
+
+.link-gmail {
+    background-image: url(http://img.freepik.com/free-icon/google-plus-logo_318-76532.jpg?size=338c&ext=jpg);
+    margin-left: 1000px;
+}
+.link-gmail:hover {
+    background-image: url(https://image.freepik.com/icones-gratis/google-plus-logotipo_318-40866.png);
+    margin-left: 1000px;
+}
+
+.link-pinterest {
+    background-image: url(https://image.freepik.com/free-icon/pinterest-letter-logo-variant_318-53062.jpg);
+    margin-left: 1100px; 
+}
+.link-pinterest:hover {
+    background-image: url(http://img.freepik.com/icones-gratis/pinterest-logotipo-sociais_318-65326.jpg?size=338&ext=jpg);
+    margin-left: 1100px;
+}
