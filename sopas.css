@@ -2,16 +2,14 @@ body {
     margin: 0;  
 }
 .menu-container {
-    border-top: 2px dashed darksalmon;
+    border: 2px dashed darksalmon;
     text-decoration: none;
     text-align: center;
     background: wheat;
-    position: fixed;
     width: 100%;
     margin: 0;
     height: 106px;
-    z-index: 10;
-}
+} 
 .menu {
     text-decoration: none;
     display: inline-block;
@@ -27,63 +25,64 @@ body {
     font-weight: bold;
 }
 
-.container-backgroundImages {
-    display: inline-block;
-    position: fixed;
-    margin-top: 106px;
+.adicionando-receita {
+    width: 70%;
+    font-size: 15px;
+    font-family: Arial Black;
 }
-.backgroundImages {
-    width: 451px;
-    height: 600px;
-    margin-left: -4px;
-}
-
-.title {
-    color: wheat;
-    width: 100%;
-    position: absolute;
-    z-index: 9;
-    margin-top: 265px;
-    font-size: 46px;
+.adicionando {
+    color: black;
+    font-family: Courier New, Courier, monospace;
+    background: pink;
+    padding: 23px 27px 20px;
+    margin-left: 632px;
     text-align: center;
 }
+.trocaReceita {
+    cursor: pointer;
+    margin-left: 719px;
+}
 
-.area-recipes {
-    border-top: 3px dashed darksalmon;
-    height: 580px;
-    width: 100%;
-    position: absolute;
-    z-index: 9;
+h1 {
+    margin-top: -157px;
+    margin-left: 232px;
 }
-.salgados {
-    margin-top: 637px;
-    background: white;
+.foto-receita {
+    width: 290px;
+    height: 200px;
 }
-.dessert {
-    margin-top: 1213px;
-    background: gainsboro;
+figure {
+    background-color: white;
+    margin-left: 10%;
+    padding: 15px;
+    width: 350px;
+    height: 220px;
+    text-align: center;
+    font-family: cursive;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
+    transform: rotate(-4deg); 
+    -webkit-transform: rotate(-4deg); 
 }
-.container-images-recipes    {
-    position: relative;
-    display: inline-block;
-    margin-top: 102px;
+.subtitulos {
+    background: -webkit-linear-gradient(top, olivedrab, #8E6B23 50%);
+    margin-left: 66px;
+    margin-top: 42px;
 }
-.images-recipes {
-    width: 198px;
-    height: 198px;
+.descricaoReceitas {
     margin-left: 60px;
-    border-radius: 50%;
 }
-h5 {
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 135px;
-}
-.list-link {
-    text-align: inherit;
-    text-decoration: none;
-    color: darkslateblue;
+
+h2 {
+    border-radius: 15px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 50%;
 }
 
 .footer {
@@ -91,9 +90,8 @@ h5 {
     background-color: darksalmon;
     height: 100px;
     width: 100%;
-    margin-top: 1793px;
+    margin-top: 80px;
 }
-
 .text-footer { 
     color: white;
     position: relative;
@@ -148,4 +146,3 @@ h5 {
     background-image: url(http://img.freepik.com/icones-gratis/pinterest-logotipo-sociais_318-65326.jpg?size=338&ext=jpg);
     margin-left: 1100px;
 }
-
