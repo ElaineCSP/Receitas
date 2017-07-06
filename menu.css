@@ -1,4 +1,4 @@
-body {
+body { 
     margin: 0;  
 }
 .menu-container {
@@ -63,6 +63,48 @@ body {
     margin-top: 1213px;
     background: gainsboro;
 }
+.blog{
+    background-image: url(https://img.elo7.com.br/product/original/1100CD2/papel-de-parede-floral-delicado-com-fund-papel-de-parede-para-quarto-de-bebe.jpg);
+    background-color: black;
+    background-attachment: fixed;
+    margin-top: 1796px;
+    width: 100%;
+    height: 600px;
+    position: absolute
+}
+.minhaImagem {
+    box-shadow: 0 0 2em #000, inset 0 0 .5em #FFF;
+    width: 300px;
+    height: 350px;
+    margin-left: 840px;
+    position: relative;
+    top: 44px;
+}
+.descreption-about-me {
+    position: absolute;
+    top: 203px;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 26px;
+}
+.descreption-about-me:first-letter {
+    font-size: 3em;
+}
+.descreption-photo {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: -526px;
+    top: 110px;
+    position: relative;
+    text-align: center;
+}
+
+.titulo-form {
+    position: relative;
+}
+.form {
+    margin-top: 20px;
+}
 .container-images-recipes    {
     position: relative;
     display: inline-block;
@@ -91,7 +133,7 @@ h5 {
     background-color: darksalmon;
     height: 100px;
     width: 100%;
-    margin-top: 1793px;
+    margin-top: 2396px;
 }
 
 .text-footer { 
