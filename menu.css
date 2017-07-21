@@ -2,23 +2,23 @@ body {
     margin: 0;  
 }
 .menu-container {
-    border-top: 2px dashed darksalmon;
+    border-top: 0.1em dashed darksalmon;
     text-decoration: none;
     text-align: center;
     background: wheat;
     position: fixed;
     width: 100%;
     margin: 0;
-    height: 106px;
+    height: 7em;
     z-index: 10;
 }
 .menu {
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
-    margin: 0 20px;
+    font-size: 1.5em;
+    margin: 0 2em;
     text-transform: uppercase;
-    margin-top: 36px;
+    margin-top: 1.5em;
 }
 .link-menus {
     text-decoration: none;
@@ -30,7 +30,7 @@ body {
 .container-backgroundImages {
     display: inline-block;
     position: fixed;
-    margin-top: 106px;
+    margin-top: 6em;
 }
 .backgroundImages {
     width: 451px;
@@ -78,7 +78,6 @@ body {
     height: 350px;
     margin-left: 840px;
     position: relative;
-    top: 44px;
 }
 .descreption-about-me {
     position: absolute;
